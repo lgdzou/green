@@ -1,4 +1,4 @@
-<template onload=Rflash()>
+<template>
   <div id="app" >
     <router-view></router-view>
   </div>
