@@ -6,7 +6,9 @@
 </template>
 
 <script type="text/ecmascript-6">
-
+    setInterval(function (event) {
+      window.location.href = '/show'
+    }, 3000)
 </script>
 
 <style lang="sass" rel="stylesheet/sass">

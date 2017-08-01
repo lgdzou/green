@@ -4,7 +4,7 @@ import Router from 'vue-router'
 import Exchange from 'components/Exchange'
 import Show from 'components/Show'
 import Registration from 'components/Registration'
-import loading from 'components/Loading'
+import Loading from 'components/Loading'
 
 Vue.use(Router)
 
@@ -19,7 +19,7 @@ export default new Router({
       children: [
         {
           path: '',
-          component: loading
+          component: Loading
         },
         {
           path: '/exchange',
